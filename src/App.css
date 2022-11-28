@@ -1,0 +1,96 @@
+.ant-drawer-header-title{
+    flex-direction: row-reverse;
+}
+
+.ant-drawer-body{
+    padding: 0!important;
+}
+
+.btn-menu--mobile{
+    display: none;
+}
+
+.modal-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox::-webkit-scrollbar {
+    display: none!important;
+  }
+
+.tab-active-story{
+    color: #1876F2!important;
+}
+
+.tab-active-story-border{
+    border-bottom: 3px solid #1876F2;
+}
+
+.story-item:hover{
+    filter: brightness(85%);
+}
+
+.name-story{
+    display: -webkit-box;
+    -webkit-box-orient: vertical ;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.btn-add-post:hover{
+    filter: brightness(85%);
+}
+
+.unlike{
+    color: #606266;
+}
+
+.liked{
+    color: #149DF5;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-menu--mobile{
+        display: block;
+    }
+
+    .ant-layout-header{
+        padding: 10px!important;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .logo-header{
+        display: none;
+    }
+
+    .siderLeft, .siderRight{
+        display: none;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
